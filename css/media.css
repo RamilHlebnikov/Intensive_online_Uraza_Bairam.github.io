@@ -348,7 +348,7 @@
     .banner::after {
         content: '';
         position: absolute;
-        top: -130px;
+        top: -131px;
         left: 0;
         width: 100%;
         height: calc(100% + 128px);
