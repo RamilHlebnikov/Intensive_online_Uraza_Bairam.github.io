@@ -464,6 +464,10 @@ html {
     pointer-events: none;
 }
 
+.flashflights {
+    display: none;
+}
+
 /* Шапка */
 .header {
     padding-top: 105px;

@@ -277,10 +277,10 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-image: url('../images/main/main_URAZA_BAIRAM/background_nav.jpg');
+        background-image: url('../images/main/main_URAZA_BAIRAM/background_main_Uraza_Bairam.png');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center center;
         z-index: 1000;
         padding: 100px 20px 20px;
     }
@@ -329,6 +329,24 @@
         background: linear-gradient(90deg, #1f67b9 0%, #4a9bc4 50%, #4fddd4 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    /* Иконка по умолчанию скрыта */
+    .flashflights {
+        display: none;
+        position: absolute;
+        left: 16px;
+        top: 49px;
+        transform: translateY(-50%);
+        width: 110px;
+        height: auto;
+        z-index: 1001;
+        pointer-events: none;
+    }
+
+    /* Показ фонариков только когда меню активно */
+    .nav.active .flashflights {
+        display: block;
     }
 
     /* Главный экран */
@@ -1715,10 +1733,10 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-image: url('../images/main/main_URAZA_BAIRAM/background_nav.jpg');
+        background-image: url('../images/main/main_URAZA_BAIRAM/background_main_Uraza_Bairam.png');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center center;
         z-index: 1000;
         padding: 80px 25px 25px;
         overflow-y: auto;
@@ -1769,6 +1787,23 @@
         background: linear-gradient(90deg, #1f67b9 0%, #4a9bc4 50%, #4fddd4 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .flashflights {
+        display: none;
+        position: absolute;
+        left: 16px;
+        top: 53px;
+        transform: translateY(-50%);
+        width: 120px;
+        height: auto;
+        z-index: 1001;
+        pointer-events: none;
+    }
+
+    /* Показ фонариков только когда меню активно */
+    .nav.active .flashflights {
+        display: block;
     }
 
     /* Главный экран */
@@ -2916,7 +2951,10 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: var(--primary-color);
+        background-image: url('../images/main/main_URAZA_BAIRAM/background_main_Uraza_Bairam.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         z-index: 1000;
         padding: 80px 25px 25px;
         overflow-y: auto;
@@ -2967,6 +3005,23 @@
         background: linear-gradient(90deg, #1f67b9 0%, #4a9bc4 50%, #4fddd4 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .flashflights {
+        display: none;
+        position: absolute;
+        left: 16px;
+        top: 57px;
+        transform: translateY(-50%);
+        width: 130px;
+        height: auto;
+        z-index: 1001;
+        pointer-events: none;
+    }
+
+    /* Показ фонариков только когда меню активно */
+    .nav.active .flashflights {
+        display: block;
     }
 
     /* Главный экран */
@@ -4038,6 +4093,10 @@
         background: linear-gradient(90deg, #1f67b9 0%, #4a9bc4 50%, #4fddd4 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .flashflights {
+        display: none;
     }
 
     /* Главный экран */
