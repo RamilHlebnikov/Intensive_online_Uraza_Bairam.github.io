@@ -61,21 +61,16 @@
 
     --gradient-title: linear-gradient(90deg, #fff3c4 0%, #edc963 42%, #af7d36 100%);
 
-    /* Карточки (синий градиент) */
     --card-gradient: linear-gradient(180deg, #033464 0%, #044073 40%, #052952 100%);
 
-    /* Перевёрнутый градиент (снизу вверх) — отзеркаленный */
     --card-gradient-flipped: linear-gradient(0deg, #033464 0%, #044073 40%, #052952 100%);
     
-    /* Декоративные элементы (синие цветы/узоры) */
     --ornament-gradient: radial-gradient(circle, #145186 0%, #044073 60%, #052952 100%);
     
-    /* Золотые элементы (луна, фоновые детали) */
     --gold-gradient: linear-gradient(180deg, #EEBF88 0%, #D6AF79 50%, #B39972 100%);
     
     --bg-main: #EEBF88;
     
-    /* Темно-синие (карточки / основной дизайн) */
     --blue-dark: #052952;
 
     --blue-deep: #033464;
@@ -88,21 +83,18 @@
 
     --blue-muted: #435C73;
     
-    /* Серо-синие оттенки (узоры / тени) */
     --gray-blue-1: #708198;
 
     --gray-blue-2: #7D7766;
 
     --gray-blue-3: #535555;
     
-    /* Золотые / бежевые (луна, фон, декор) */
     --gold-light: #EEBF88;
 
     --gold: #D6AF79;
 
     --gold-dark: #B39972;
 
-    /* Дополнительные эффекты */
     --shadow-blue: 0 10px 30px rgba(3, 52, 100, 0.3);
 
     --shadow-gold-new: 0 10px 25px rgba(208, 175, 121, 0.35);
